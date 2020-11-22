@@ -1,0 +1,2232 @@
+The system is: Linux - 5.4.0-47-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: -I;/home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include;-I;/home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+cc (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ed9cc/fast && /usr/bin/make -f CMakeFiles/cmTC_ed9cc.dir/build.make CMakeFiles/cmTC_ed9cc.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed9cc.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ed9cc.dir/testCCompiler.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ed9cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed9cc.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ed9cc.dir/testCCompiler.c.o  -o cmTC_ed9cc 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_10660/fast && /usr/bin/make -f CMakeFiles/cmTC_10660.dir/build.make CMakeFiles/cmTC_10660.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccq4lRhJ.s
+GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18dc4c39b54390aa2b5013fb4339d43f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o /tmp/ccq4lRhJ.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_10660
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10660.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o  -o cmTC_10660 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10660' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCWI8ve.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_10660 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10660' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_10660/fast && /usr/bin/make -f CMakeFiles/cmTC_10660.dir/build.make CMakeFiles/cmTC_10660.dir/build]
+  ignore line: [make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccq4lRhJ.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 18dc4c39b54390aa2b5013fb4339d43f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o /tmp/ccq4lRhJ.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_10660]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10660.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o  -o cmTC_10660 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10660' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCWI8ve.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_10660 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccCWI8ve.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_10660] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_10660.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6fa89/fast && /usr/bin/make -f CMakeFiles/cmTC_6fa89.dir/build.make CMakeFiles/cmTC_6fa89.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6fa89.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include    -o CMakeFiles/cmTC_6fa89.dir/testCXXCompiler.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_6fa89
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fa89.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include     CMakeFiles/cmTC_6fa89.dir/testCXXCompiler.cxx.o  -o cmTC_6fa89 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f68ce/fast && /usr/bin/make -f CMakeFiles/cmTC_f68ce.dir/build.make CMakeFiles/cmTC_f68ce.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include    -v -o CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COLLECT_GCC_OPTIONS='-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include' '-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include' '-v' '-o' 'CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc64hiGL.s
+GNU C++14 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: a3d04a02fbd98a786d710618ca593f02
+COLLECT_GCC_OPTIONS='-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include' '-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include' '-v' '-o' 'CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include --64 -o CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc64hiGL.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include' '-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include' '-v' '-o' 'CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_f68ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f68ce.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include    -v CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f68ce 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include' '-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include' '-v' '-o' 'cmTC_f68ce' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cclAOYxc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f68ce /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include' '-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include' '-v' '-o' 'cmTC_f68ce' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include]
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include] ==> [/home/growtopiajaw/Desktop/apple-libtapi-master/src/llvm/projects/clang/include]
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/home/growtopiajaw/Desktop/apple-libtapi-master/src/llvm/projects/clang/include;/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_f68ce/fast && /usr/bin/make -f CMakeFiles/cmTC_f68ce.dir/build.make CMakeFiles/cmTC_f68ce.dir/build]
+  ignore line: [make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include    -v -o CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include' '-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include' '-v' '-o' 'CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc64hiGL.s]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-10ubuntu2) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: a3d04a02fbd98a786d710618ca593f02]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include' '-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include' '-v' '-o' 'CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include --64 -o CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc64hiGL.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include' '-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include' '-v' '-o' 'CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_f68ce]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f68ce.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include    -v CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f68ce ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-10ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include' '-I' '/home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include' '-v' '-o' 'cmTC_f68ce' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cclAOYxc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f68ce /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cclAOYxc.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f68ce] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_f68ce.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_59eff/fast && /usr/bin/make -f CMakeFiles/cmTC_59eff.dir/build.make CMakeFiles/cmTC_59eff.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59eff.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_59eff.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_59eff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59eff.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_59eff.dir/CheckIncludeFile.c.o  -o cmTC_59eff  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_240ab/fast && /usr/bin/make -f CMakeFiles/cmTC_240ab.dir/build.make CMakeFiles/cmTC_240ab.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_240ab.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_240ab.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_240ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_240ab.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_240ab.dir/CheckIncludeFile.c.o  -o cmTC_240ab  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b6cc9/fast && /usr/bin/make -f CMakeFiles/cmTC_b6cc9.dir/build.make CMakeFiles/cmTC_b6cc9.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6cc9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b6cc9.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b6cc9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6cc9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b6cc9.dir/CheckIncludeFile.c.o  -o cmTC_b6cc9  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file link.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_96df2/fast && /usr/bin/make -f CMakeFiles/cmTC_96df2.dir/build.make CMakeFiles/cmTC_96df2.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96df2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_96df2.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_96df2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96df2.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_96df2.dir/CheckIncludeFile.c.o  -o cmTC_96df2  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4a60f/fast && /usr/bin/make -f CMakeFiles/cmTC_4a60f.dir/build.make CMakeFiles/cmTC_4a60f.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a60f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4a60f.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4a60f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a60f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4a60f.dir/CheckIncludeFile.c.o  -o cmTC_4a60f  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d052c/fast && /usr/bin/make -f CMakeFiles/cmTC_d052c.dir/build.make CMakeFiles/cmTC_d052c.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d052c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d052c.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d052c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d052c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d052c.dir/CheckIncludeFile.c.o  -o cmTC_d052c  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3447b/fast && /usr/bin/make -f CMakeFiles/cmTC_3447b.dir/build.make CMakeFiles/cmTC_3447b.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3447b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3447b.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3447b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3447b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3447b.dir/CheckIncludeFile.c.o  -o cmTC_3447b  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1957e/fast && /usr/bin/make -f CMakeFiles/cmTC_1957e.dir/build.make CMakeFiles/cmTC_1957e.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1957e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1957e.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1957e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1957e.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1957e.dir/CheckIncludeFile.c.o  -o cmTC_1957e  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4acb0/fast && /usr/bin/make -f CMakeFiles/cmTC_4acb0.dir/build.make CMakeFiles/cmTC_4acb0.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4acb0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4acb0.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4acb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4acb0.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4acb0.dir/CheckIncludeFile.c.o  -o cmTC_4acb0  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e85fe/fast && /usr/bin/make -f CMakeFiles/cmTC_e85fe.dir/build.make CMakeFiles/cmTC_e85fe.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e85fe.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e85fe.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e85fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e85fe.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_e85fe.dir/CheckIncludeFile.c.o  -o cmTC_e85fe  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_93e79/fast && /usr/bin/make -f CMakeFiles/cmTC_93e79.dir/build.make CMakeFiles/cmTC_93e79.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93e79.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_93e79.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_93e79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93e79.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_93e79.dir/CheckIncludeFile.c.o  -o cmTC_93e79  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_73a3a/fast && /usr/bin/make -f CMakeFiles/cmTC_73a3a.dir/build.make CMakeFiles/cmTC_73a3a.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73a3a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_73a3a.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_73a3a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73a3a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_73a3a.dir/CheckIncludeFile.c.o  -o cmTC_73a3a  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ffdaf/fast && /usr/bin/make -f CMakeFiles/cmTC_ffdaf.dir/build.make CMakeFiles/cmTC_ffdaf.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ffdaf.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ffdaf.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ffdaf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffdaf.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ffdaf.dir/CheckIncludeFile.c.o  -o cmTC_ffdaf  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5e319/fast && /usr/bin/make -f CMakeFiles/cmTC_5e319.dir/build.make CMakeFiles/cmTC_5e319.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e319.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5e319.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5e319
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e319.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5e319.dir/CheckIncludeFile.c.o  -o cmTC_5e319  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e0ee1/fast && /usr/bin/make -f CMakeFiles/cmTC_e0ee1.dir/build.make CMakeFiles/cmTC_e0ee1.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0ee1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e0ee1.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e0ee1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0ee1.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_e0ee1.dir/CheckIncludeFile.c.o  -o cmTC_e0ee1  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bc342/fast && /usr/bin/make -f CMakeFiles/cmTC_bc342.dir/build.make CMakeFiles/cmTC_bc342.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc342.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bc342.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bc342
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc342.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_bc342.dir/CheckIncludeFile.c.o  -o cmTC_bc342  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_117ff/fast && /usr/bin/make -f CMakeFiles/cmTC_117ff.dir/build.make CMakeFiles/cmTC_117ff.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_117ff.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_117ff.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_117ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_117ff.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_117ff.dir/CheckIncludeFile.c.o  -o cmTC_117ff  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_80731/fast && /usr/bin/make -f CMakeFiles/cmTC_80731.dir/build.make CMakeFiles/cmTC_80731.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80731.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_80731.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_80731
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80731.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_80731.dir/CheckIncludeFile.c.o  -o cmTC_80731  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_14878/fast && /usr/bin/make -f CMakeFiles/cmTC_14878.dir/build.make CMakeFiles/cmTC_14878.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14878.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_14878.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_14878
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14878.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_14878.dir/CheckSymbolExists.c.o  -o cmTC_14878  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c50a4/fast && /usr/bin/make -f CMakeFiles/cmTC_c50a4.dir/build.make CMakeFiles/cmTC_c50a4.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c50a4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c50a4.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c50a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c50a4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c50a4.dir/CheckSymbolExists.c.o  -o cmTC_c50a4  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file linux/magic.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b7285/fast && /usr/bin/make -f CMakeFiles/cmTC_b7285.dir/build.make CMakeFiles/cmTC_b7285.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7285.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b7285.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b7285
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7285.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b7285.dir/CheckIncludeFile.c.o  -o cmTC_b7285  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c8548/fast && /usr/bin/make -f CMakeFiles/cmTC_c8548.dir/build.make CMakeFiles/cmTC_c8548.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8548.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c8548.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c8548
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8548.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c8548.dir/CheckFunctionExists.c.o  -o cmTC_c8548  -lpthread -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b234e/fast && /usr/bin/make -f CMakeFiles/cmTC_b234e.dir/build.make CMakeFiles/cmTC_b234e.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b234e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getspecific   -o CMakeFiles/cmTC_b234e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b234e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b234e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_getspecific    CMakeFiles/cmTC_b234e.dir/CheckFunctionExists.c.o  -o cmTC_b234e  -lpthread -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5d51c/fast && /usr/bin/make -f CMakeFiles/cmTC_5d51c.dir/build.make CMakeFiles/cmTC_5d51c.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d51c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init   -o CMakeFiles/cmTC_5d51c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5d51c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d51c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init    CMakeFiles/cmTC_5d51c.dir/CheckFunctionExists.c.o  -o cmTC_5d51c  -lpthread -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a928b/fast && /usr/bin/make -f CMakeFiles/cmTC_a928b.dir/build.make CMakeFiles/cmTC_a928b.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a928b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock   -o CMakeFiles/cmTC_a928b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a928b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a928b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock    CMakeFiles/cmTC_a928b.dir/CheckFunctionExists.c.o  -o cmTC_a928b  -lpthread -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_310f6/fast && /usr/bin/make -f CMakeFiles/cmTC_310f6.dir/build.make CMakeFiles/cmTC_310f6.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_310f6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_310f6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_310f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_310f6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTC_310f6.dir/CheckFunctionExists.c.o  -o cmTC_310f6  -ldl -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5ef21/fast && /usr/bin/make -f CMakeFiles/cmTC_5ef21.dir/build.make CMakeFiles/cmTC_5ef21.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ef21.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_5ef21.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5ef21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ef21.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_5ef21.dir/CheckFunctionExists.c.o  -o cmTC_5ef21  -lrt -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52be9/fast && /usr/bin/make -f CMakeFiles/cmTC_52be9.dir/build.make CMakeFiles/cmTC_52be9.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52be9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_52be9.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_52be9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52be9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_52be9.dir/CheckIncludeFile.c.o  -o cmTC_52be9  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6be06/fast && /usr/bin/make -f CMakeFiles/cmTC_6be06.dir/build.make CMakeFiles/cmTC_6be06.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6be06.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6be06.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6be06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6be06.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_6be06.dir/CheckFunctionExists.c.o  -o cmTC_6be06  -lpthread -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a4158/fast && /usr/bin/make -f CMakeFiles/cmTC_a4158.dir/build.make CMakeFiles/cmTC_a4158.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4158.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress2   -o CMakeFiles/cmTC_a4158.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a4158
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4158.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=compress2    CMakeFiles/cmTC_a4158.dir/CheckFunctionExists.c.o  -o cmTC_a4158  -lz -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function setupterm exists in the tinfo passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_90fbb/fast && /usr/bin/make -f CMakeFiles/cmTC_90fbb.dir/build.make CMakeFiles/cmTC_90fbb.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90fbb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_90fbb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_90fbb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90fbb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm    CMakeFiles/cmTC_90fbb.dir/CheckFunctionExists.c.o  -o cmTC_90fbb  -ltinfo -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_43bdc/fast && /usr/bin/make -f CMakeFiles/cmTC_43bdc.dir/build.make CMakeFiles/cmTC_43bdc.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43bdc.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_43bdc.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_43bdc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43bdc.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_43bdc.dir/CheckSymbolExists.c.o  -o cmTC_43bdc 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bf457/fast && /usr/bin/make -f CMakeFiles/cmTC_bf457.dir/build.make CMakeFiles/cmTC_bf457.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf457.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bf457.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bf457
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf457.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_bf457.dir/CheckSymbolExists.c.o  -o cmTC_bf457  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_801e1/fast && /usr/bin/make -f CMakeFiles/cmTC_801e1.dir/build.make CMakeFiles/cmTC_801e1.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_801e1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_801e1.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_801e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_801e1.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_801e1.dir/CheckSymbolExists.c.o  -o cmTC_801e1  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1a12b/fast && /usr/bin/make -f CMakeFiles/cmTC_1a12b.dir/build.make CMakeFiles/cmTC_1a12b.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a12b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1a12b.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1a12b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a12b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1a12b.dir/CheckSymbolExists.c.o  -o cmTC_1a12b  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_95859/fast && /usr/bin/make -f CMakeFiles/cmTC_95859.dir/build.make CMakeFiles/cmTC_95859.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95859.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_95859.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_95859
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95859.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_95859.dir/CheckSymbolExists.c.o  -o cmTC_95859  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_854ab/fast && /usr/bin/make -f CMakeFiles/cmTC_854ab.dir/build.make CMakeFiles/cmTC_854ab.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_854ab.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_854ab.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_854ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_854ab.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_854ab.dir/CheckSymbolExists.c.o  -o cmTC_854ab  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isatty exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a49d3/fast && /usr/bin/make -f CMakeFiles/cmTC_a49d3.dir/build.make CMakeFiles/cmTC_a49d3.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a49d3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a49d3.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a49d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a49d3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_a49d3.dir/CheckSymbolExists.c.o  -o cmTC_a49d3  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimens exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_34388/fast && /usr/bin/make -f CMakeFiles/cmTC_34388.dir/build.make CMakeFiles/cmTC_34388.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34388.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_34388.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_34388
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34388.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_34388.dir/CheckSymbolExists.c.o  -o cmTC_34388  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimes exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_988c8/fast && /usr/bin/make -f CMakeFiles/cmTC_988c8.dir/build.make CMakeFiles/cmTC_988c8.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_988c8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_988c8.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_988c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_988c8.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_988c8.dir/CheckSymbolExists.c.o  -o cmTC_988c8  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_fallocate exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ca2cd/fast && /usr/bin/make -f CMakeFiles/cmTC_ca2cd.dir/build.make CMakeFiles/cmTC_ca2cd.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca2cd.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ca2cd.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ca2cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca2cd.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ca2cd.dir/CheckSymbolExists.c.o  -o cmTC_ca2cd  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_fallocate
+  return ((int*)(&posix_fallocate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaltstack exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4f8cd/fast && /usr/bin/make -f CMakeFiles/cmTC_4f8cd.dir/build.make CMakeFiles/cmTC_4f8cd.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f8cd.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4f8cd.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4f8cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f8cd.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4f8cd.dir/CheckSymbolExists.c.o  -o cmTC_4f8cd  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaltstack
+  return ((int*)(&sigaltstack))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lseek64 exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_688be/fast && /usr/bin/make -f CMakeFiles/cmTC_688be.dir/build.make CMakeFiles/cmTC_688be.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_688be.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_LARGEFILE64_SOURCE   -o CMakeFiles/cmTC_688be.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_688be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_688be.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_688be.dir/CheckSymbolExists.c.o  -o cmTC_688be  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lseek64
+  return ((int*)(&lseek64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c6688/fast && /usr/bin/make -f CMakeFiles/cmTC_c6688.dir/build.make CMakeFiles/cmTC_c6688.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6688.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c6688.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c6688
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6688.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c6688.dir/CheckSymbolExists.c.o  -o cmTC_c6688  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_953e9/fast && /usr/bin/make -f CMakeFiles/cmTC_953e9.dir/build.make CMakeFiles/cmTC_953e9.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_953e9.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_953e9.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_953e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_953e9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_953e9.dir/CheckSymbolExists.c.o  -o cmTC_953e9  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_06a4c/fast && /usr/bin/make -f CMakeFiles/cmTC_06a4c.dir/build.make CMakeFiles/cmTC_06a4c.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06a4c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_06a4c.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_06a4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06a4c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_06a4c.dir/CheckSymbolExists.c.o  -o cmTC_06a4c  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d47f1/fast && /usr/bin/make -f CMakeFiles/cmTC_d47f1.dir/build.make CMakeFiles/cmTC_d47f1.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d47f1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d47f1.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d47f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d47f1.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d47f1.dir/CheckSymbolExists.c.o  -o cmTC_d47f1  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the realpath exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4f127/fast && /usr/bin/make -f CMakeFiles/cmTC_4f127.dir/build.make CMakeFiles/cmTC_4f127.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f127.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4f127.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4f127
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f127.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4f127.dir/CheckSymbolExists.c.o  -o cmTC_4f127  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realpath
+  return ((int*)(&realpath))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sbrk exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d959d/fast && /usr/bin/make -f CMakeFiles/cmTC_d959d.dir/build.make CMakeFiles/cmTC_d959d.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d959d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d959d.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d959d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d959d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d959d.dir/CheckSymbolExists.c.o  -o cmTC_d959d  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9298d/fast && /usr/bin/make -f CMakeFiles/cmTC_9298d.dir/build.make CMakeFiles/cmTC_9298d.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9298d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9298d.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9298d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9298d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9298d.dir/CheckSymbolExists.c.o  -o cmTC_9298d  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_92ca7/fast && /usr/bin/make -f CMakeFiles/cmTC_92ca7.dir/build.make CMakeFiles/cmTC_92ca7.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92ca7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_92ca7.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_92ca7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92ca7.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_92ca7.dir/CheckSymbolExists.c.o  -o cmTC_92ca7  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a7655/fast && /usr/bin/make -f CMakeFiles/cmTC_a7655.dir/build.make CMakeFiles/cmTC_a7655.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7655.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a7655.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a7655
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7655.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_a7655.dir/CheckSymbolExists.c.o  -o cmTC_a7655  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_efbb1/fast && /usr/bin/make -f CMakeFiles/cmTC_efbb1.dir/build.make CMakeFiles/cmTC_efbb1.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efbb1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_efbb1.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_efbb1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efbb1.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_efbb1.dir/CheckSymbolExists.c.o  -o cmTC_efbb1  -lm -ldl 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bcdd5/fast && /usr/bin/make -f CMakeFiles/cmTC_bcdd5.dir/build.make CMakeFiles/cmTC_bcdd5.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bcdd5.dir/src.c.o
+/usr/bin/cc   -DHAVE_STRUCT_STAT_ST_MTIM_TV_NSEC   -o CMakeFiles/cmTC_bcdd5.dir/src.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bcdd5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcdd5.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_STRUCT_STAT_ST_MTIM_TV_NSEC    CMakeFiles/cmTC_bcdd5.dir/src.c.o  -o cmTC_bcdd5  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtim.tv_nsec);
+  return 0;
+}
+
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_61228/fast && /usr/bin/make -f CMakeFiles/cmTC_61228.dir/build.make CMakeFiles/cmTC_61228.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61228.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_61228.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_61228
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61228.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_61228.dir/CheckSymbolExists.c.o  -o cmTC_61228  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sched_getaffinity exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ae9d0/fast && /usr/bin/make -f CMakeFiles/cmTC_ae9d0.dir/build.make CMakeFiles/cmTC_ae9d0.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae9d0.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_ae9d0.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ae9d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae9d0.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ae9d0.dir/CheckSymbolExists.c.o  -o cmTC_ae9d0  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sched.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sched_getaffinity
+  return ((int*)(&sched_getaffinity))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the CPU_COUNT exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cb690/fast && /usr/bin/make -f CMakeFiles/cmTC_cb690.dir/build.make CMakeFiles/cmTC_cb690.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb690.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_cb690.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cb690
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb690.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_cb690.dir/CheckSymbolExists.c.o  -o cmTC_cb690  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sched.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CPU_COUNT
+  return ((int*)(&CPU_COUNT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_getname_np exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2abd8/fast && /usr/bin/make -f CMakeFiles/cmTC_2abd8.dir/build.make CMakeFiles/cmTC_2abd8.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2abd8.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_2abd8.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2abd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2abd8.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2abd8.dir/CheckSymbolExists.c.o  -o cmTC_2abd8  -lm -lpthread 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_getname_np
+  return ((int*)(&pthread_getname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_setname_np exist passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c7832/fast && /usr/bin/make -f CMakeFiles/cmTC_c7832.dir/build.make CMakeFiles/cmTC_c7832.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7832.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_c7832.dir/CheckSymbolExists.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c7832
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7832.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c7832.dir/CheckSymbolExists.c.o  -o cmTC_c7832  -lm -lpthread 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+File /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_61545/fast && /usr/bin/make -f CMakeFiles/cmTC_61545.dir/build.make CMakeFiles/cmTC_61545.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_61545.dir/src.cxx.o
+/usr/bin/c++  -D_GNU_SOURCE  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -std=c++11   -o CMakeFiles/cmTC_61545.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_61545
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61545.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -std=c++11    CMakeFiles/cmTC_61545.dir/src.cxx.o  -o cmTC_61545  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> x;
+int main() {
+  return x;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_96786/fast && /usr/bin/make -f CMakeFiles/cmTC_96786.dir/build.make CMakeFiles/cmTC_96786.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96786.dir/src.cxx.o
+/usr/bin/c++  -D_GNU_SOURCE  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -DHAVE_CXX_ATOMICS64_WITHOUT_LIB -std=c++11   -o CMakeFiles/cmTC_96786.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_96786
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96786.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -DHAVE_CXX_ATOMICS64_WITHOUT_LIB -std=c++11    CMakeFiles/cmTC_96786.dir/src.cxx.o  -o cmTC_96786  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+#include <cstdint>
+std::atomic<uint64_t> x (0);
+int main() {
+  uint64_t i = x.load(std::memory_order_relaxed);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3694e/fast && /usr/bin/make -f CMakeFiles/cmTC_3694e.dir/build.make CMakeFiles/cmTC_3694e.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3694e.dir/src.cxx.o
+/usr/bin/c++  -D_GNU_SOURCE  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -DLLVM_HAS_ATOMICS   -o CMakeFiles/cmTC_3694e.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3694e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3694e.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -DLLVM_HAS_ATOMICS    CMakeFiles/cmTC_3694e.dir/src.cxx.o  -o cmTC_3694e  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0cf9b/fast && /usr/bin/make -f CMakeFiles/cmTC_0cf9b.dir/build.make CMakeFiles/cmTC_0cf9b.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0cf9b.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -DSUPPORTS_VARIADIC_MACROS_FLAG   -Wvariadic-macros -o CMakeFiles/cmTC_0cf9b.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0cf9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cf9b.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -DSUPPORTS_VARIADIC_MACROS_FLAG    CMakeFiles/cmTC_0cf9b.dir/src.cxx.o  -o cmTC_0cf9b  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_MAYBE_UNINITIALIZED succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6f4fb/fast && /usr/bin/make -f CMakeFiles/cmTC_6f4fb.dir/build.make CMakeFiles/cmTC_6f4fb.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6f4fb.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -DHAS_MAYBE_UNINITIALIZED   -Wmaybe-uninitialized -o CMakeFiles/cmTC_6f4fb.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6f4fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f4fb.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -DHAS_MAYBE_UNINITIALIZED    CMakeFiles/cmTC_6f4fb.dir/src.cxx.o  -o cmTC_6f4fb  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_50cde/fast && /usr/bin/make -f CMakeFiles/cmTC_50cde.dir/build.make CMakeFiles/cmTC_50cde.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50cde.dir/src.c.o
+/usr/bin/cc   -DC_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTC_50cde.dir/src.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_50cde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50cde.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_SUPPORTS_FPIC    CMakeFiles/cmTC_50cde.dir/src.c.o  -o cmTC_50cde  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_24aa2/fast && /usr/bin/make -f CMakeFiles/cmTC_24aa2.dir/build.make CMakeFiles/cmTC_24aa2.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_24aa2.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -DCXX_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTC_24aa2.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_24aa2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24aa2.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -DCXX_SUPPORTS_FPIC    CMakeFiles/cmTC_24aa2.dir/src.cxx.o  -o cmTC_24aa2  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bf4f1/fast && /usr/bin/make -f CMakeFiles/cmTC_bf4f1.dir/build.make CMakeFiles/cmTC_bf4f1.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bf4f1.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_bf4f1.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bf4f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf4f1.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG    CMakeFiles/cmTC_bf4f1.dir/src.cxx.o  -o cmTC_bf4f1  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1bae0/fast && /usr/bin/make -f CMakeFiles/cmTC_1bae0.dir/build.make CMakeFiles/cmTC_1bae0.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bae0.dir/src.c.o
+/usr/bin/cc   -fPIC -DC_SUPPORTS_WERROR_DATE_TIME   -Werror -Werror=date-time -o CMakeFiles/cmTC_1bae0.dir/src.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1bae0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bae0.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DC_SUPPORTS_WERROR_DATE_TIME    CMakeFiles/cmTC_1bae0.dir/src.c.o  -o cmTC_1bae0  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ddecc/fast && /usr/bin/make -f CMakeFiles/cmTC_ddecc.dir/build.make CMakeFiles/cmTC_ddecc.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ddecc.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME   -Werror -Werror=date-time -o CMakeFiles/cmTC_ddecc.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ddecc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddecc.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME    CMakeFiles/cmTC_ddecc.dir/src.cxx.o  -o cmTC_ddecc  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7c255/fast && /usr/bin/make -f CMakeFiles/cmTC_7c255.dir/build.make CMakeFiles/cmTC_7c255.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7c255.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_7c255.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7c255
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c255.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_CXX11    CMakeFiles/cmTC_7c255.dir/src.cxx.o  -o cmTC_7c255  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_53806/fast && /usr/bin/make -f CMakeFiles/cmTC_53806.dir/build.make CMakeFiles/cmTC_53806.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_53806.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG   -Wmissing-field-initializers -o CMakeFiles/cmTC_53806.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_53806
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53806.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG    CMakeFiles/cmTC_53806.dir/src.cxx.o  -o cmTC_53806  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_732ea/fast && /usr/bin/make -f CMakeFiles/cmTC_732ea.dir/build.make CMakeFiles/cmTC_732ea.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_732ea.dir/src.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -DC_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG   -Werror -Wimplicit-fallthrough -o CMakeFiles/cmTC_732ea.dir/src.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_732ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_732ea.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -DC_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG    CMakeFiles/cmTC_732ea.dir/src.c.o  -o cmTC_732ea  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bbb9f/fast && /usr/bin/make -f CMakeFiles/cmTC_bbb9f.dir/build.make CMakeFiles/cmTC_bbb9f.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bbb9f.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -DCXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG   -Werror -Wimplicit-fallthrough -o CMakeFiles/cmTC_bbb9f.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bbb9f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbb9f.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -DCXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG    CMakeFiles/cmTC_bbb9f.dir/src.cxx.o  -o cmTC_bbb9f  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_23567/fast && /usr/bin/make -f CMakeFiles/cmTC_23567.dir/build.make CMakeFiles/cmTC_23567.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_23567.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -DCXX_SUPPORTS_CLASS_MEMACCESS_FLAG   -Wclass-memaccess -o CMakeFiles/cmTC_23567.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_23567
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23567.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -DCXX_SUPPORTS_CLASS_MEMACCESS_FLAG    CMakeFiles/cmTC_23567.dir/src.cxx.o  -o cmTC_23567  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_736e3/fast && /usr/bin/make -f CMakeFiles/cmTC_736e3.dir/build.make CMakeFiles/cmTC_736e3.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_736e3.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -DCXX_SUPPORTS_NOEXCEPT_TYPE_FLAG   -Wnoexcept-type -o CMakeFiles/cmTC_736e3.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_736e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_736e3.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -DCXX_SUPPORTS_NOEXCEPT_TYPE_FLAG    CMakeFiles/cmTC_736e3.dir/src.cxx.o  -o cmTC_736e3  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3c3be/fast && /usr/bin/make -f CMakeFiles/cmTC_3c3be.dir/build.make CMakeFiles/cmTC_3c3be.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c3be.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -DCXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG   -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_3c3be.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3c3be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c3be.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -DCXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG    CMakeFiles/cmTC_3c3be.dir/src.cxx.o  -o cmTC_3c3be  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FNO_FUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7a101/fast && /usr/bin/make -f CMakeFiles/cmTC_7a101.dir/build.make CMakeFiles/cmTC_7a101.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a101.dir/src.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -DC_SUPPORTS_FNO_FUNCTION_SECTIONS   -Werror -fno-function-sections -o CMakeFiles/cmTC_7a101.dir/src.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7a101
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a101.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -DC_SUPPORTS_FNO_FUNCTION_SECTIONS    CMakeFiles/cmTC_7a101.dir/src.c.o  -o cmTC_7a101  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e4860/fast && /usr/bin/make -f CMakeFiles/cmTC_e4860.dir/build.make CMakeFiles/cmTC_e4860.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4860.dir/src.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -DC_SUPPORTS_FFUNCTION_SECTIONS   -Werror -ffunction-sections -o CMakeFiles/cmTC_e4860.dir/src.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e4860
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4860.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -DC_SUPPORTS_FFUNCTION_SECTIONS    CMakeFiles/cmTC_e4860.dir/src.c.o  -o cmTC_e4860  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dd159/fast && /usr/bin/make -f CMakeFiles/cmTC_dd159.dir/build.make CMakeFiles/cmTC_dd159.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dd159.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -DCXX_SUPPORTS_FFUNCTION_SECTIONS   -Werror -ffunction-sections -o CMakeFiles/cmTC_dd159.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dd159
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd159.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -DCXX_SUPPORTS_FFUNCTION_SECTIONS    CMakeFiles/cmTC_dd159.dir/src.cxx.o  -o cmTC_dd159  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dbf06/fast && /usr/bin/make -f CMakeFiles/cmTC_dbf06.dir/build.make CMakeFiles/cmTC_dbf06.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbf06.dir/src.c.o
+/usr/bin/cc   -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -DC_SUPPORTS_FDATA_SECTIONS   -Werror -fdata-sections -o CMakeFiles/cmTC_dbf06.dir/src.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dbf06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbf06.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -DC_SUPPORTS_FDATA_SECTIONS    CMakeFiles/cmTC_dbf06.dir/src.c.o  -o cmTC_dbf06  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_28030/fast && /usr/bin/make -f CMakeFiles/cmTC_28030.dir/build.make CMakeFiles/cmTC_28030.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_28030.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -DCXX_SUPPORTS_FDATA_SECTIONS   -Werror -fdata-sections -o CMakeFiles/cmTC_28030.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_28030
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28030.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -DCXX_SUPPORTS_FDATA_SECTIONS    CMakeFiles/cmTC_28030.dir/src.cxx.o  -o cmTC_28030  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f826b/fast && /usr/bin/make -f CMakeFiles/cmTC_f826b.dir/build.make CMakeFiles/cmTC_f826b.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f826b.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections    -o CMakeFiles/cmTC_f826b.dir/CheckIncludeFile.c.o   -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f826b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f826b.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections    -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_f826b.dir/CheckIncludeFile.c.o  -o cmTC_f826b  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_01132/fast && /usr/bin/make -f CMakeFiles/cmTC_01132.dir/build.make CMakeFiles/cmTC_01132.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_01132.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11   -std=c++11 -o CMakeFiles/cmTC_01132.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_01132
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01132.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11   -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_01132.dir/src.cxx.o  -o cmTC_01132  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_07a72/fast && /usr/bin/make -f CMakeFiles/cmTC_07a72.dir/build.make CMakeFiles/cmTC_07a72.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_07a72.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall   -Wall -o CMakeFiles/cmTC_07a72.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_07a72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07a72.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall   -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_07a72.dir/src.cxx.o  -o cmTC_07a72  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d4893/fast && /usr/bin/make -f CMakeFiles/cmTC_d4893.dir/build.make CMakeFiles/cmTC_d4893.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d4893.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra   -Wextra -o CMakeFiles/cmTC_d4893.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d4893
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4893.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra   -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_d4893.dir/src.cxx.o  -o cmTC_d4893  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df8ec/fast && /usr/bin/make -f CMakeFiles/cmTC_df8ec.dir/build.make CMakeFiles/cmTC_df8ec.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_df8ec.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow   -Wshadow -o CMakeFiles/cmTC_df8ec.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_df8ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df8ec.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow   -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_df8ec.dir/src.cxx.o  -o cmTC_df8ec  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d923/fast && /usr/bin/make -f CMakeFiles/cmTC_9d923.dir/build.make CMakeFiles/cmTC_9d923.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d923.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -pedantic   -pedantic -o CMakeFiles/cmTC_9d923.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9d923
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d923.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_PEDANTIC  -pedantic   -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_9d923.dir/src.cxx.o  -o cmTC_9d923  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_05dc8/fast && /usr/bin/make -f CMakeFiles/cmTC_05dc8.dir/build.make CMakeFiles/cmTC_05dc8.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05dc8.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors   -pedantic-errors -o CMakeFiles/cmTC_05dc8.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_05dc8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05dc8.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -pedantic-errors   -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_05dc8.dir/src.cxx.o  -o cmTC_05dc8  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f3314/fast && /usr/bin/make -f CMakeFiles/cmTC_f3314.dir/build.make CMakeFiles/cmTC_f3314.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f3314.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal   -Wfloat-equal -o CMakeFiles/cmTC_f3314.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f3314
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3314.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wfloat-equal   -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_f3314.dir/src.cxx.o  -o cmTC_f3314  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c34da/fast && /usr/bin/make -f CMakeFiles/cmTC_c34da.dir/build.make CMakeFiles/cmTC_c34da.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c34da.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing   -fstrict-aliasing -o CMakeFiles/cmTC_c34da.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c34da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c34da.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing   -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_c34da.dir/src.cxx.o  -o cmTC_c34da  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FNO_EXCEPTIONS succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f8704/fast && /usr/bin/make -f CMakeFiles/cmTC_f8704.dir/build.make CMakeFiles/cmTC_f8704.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f8704.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions   -fno-exceptions -o CMakeFiles/cmTC_f8704.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f8704
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8704.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fno-exceptions   -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_f8704.dir/src.cxx.o  -o cmTC_f8704  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d5cd7/fast && /usr/bin/make -f CMakeFiles/cmTC_d5cd7.dir/build.make CMakeFiles/cmTC_d5cd7.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d5cd7.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing   -Wstrict-aliasing -o CMakeFiles/cmTC_d5cd7.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d5cd7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5cd7.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing   -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_d5cd7.dir/src.cxx.o  -o cmTC_d5cd7  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_38bc8/fast && /usr/bin/make -f CMakeFiles/cmTC_38bc8.dir/build.make CMakeFiles/cmTC_38bc8.dir/build
+make[1]: Entering directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_38bc8.dir/src.cxx.o
+/usr/bin/c++    -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage   --coverage -o CMakeFiles/cmTC_38bc8.dir/src.cxx.o -c /home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_38bc8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38bc8.dir/link.txt --verbose=1
+/usr/bin/c++  -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/../src/llvm/projects/clang/include -I /home/growtopiajaw/Desktop/apple-libtapi-master/build/projects/clang/include -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -fno-exceptions  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage   -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_38bc8.dir/src.cxx.o  -o cmTC_38bc8  -lm 
+make[1]: Leaving directory '/home/growtopiajaw/Desktop/apple-libtapi-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
